@@ -1,7 +1,7 @@
 _id: req_88ac5f6fd7584e4a8d2b78f7e1393045
 type: Request
 parentId: fld_c30ddf10c5064ff7956a63fd1c6dfe24
-modified: 1697123821101
+modified: 1697126637989
 created: 1697123797910
 url: http://localhost:3000/app/companies/6527159c113091fe5e379cbe
 name: Update Companies
@@ -9,19 +9,7 @@ description: ""
 method: PUT
 body:
   mimeType: application/json
-  text: |-
-    {
-      "business_name": "Mi Empresa",
-      "brand": "Mi Marca",
-      "NIT": "1234567890",
-      "status": "active",
-      "logo": "https://ejemplo.com/logo.png",
-      "styles": {
-        "color": "#FF5733",
-        "font": "Arial",
-        "fontSize": "16px"
-      }
-    }
+  text: ""
 parameters: []
 headers:
   - name: Content-Type

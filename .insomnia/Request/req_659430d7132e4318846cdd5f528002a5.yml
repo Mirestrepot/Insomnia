@@ -1,7 +1,7 @@
 _id: req_659430d7132e4318846cdd5f528002a5
 type: Request
 parentId: fld_c30ddf10c5064ff7956a63fd1c6dfe24
-modified: 1697123845053
+modified: 1697126633982
 created: 1697121955100
 url: http://localhost:3000/app/companies/
 name: Create Companies
@@ -11,13 +11,13 @@ body:
   mimeType: application/json
   text: |-
     {
-      "business_name": "Mi Empresa",
-      "brand": "Mi Marca",
-      "NIT": "1234567890",
+      "business_name": "M1123",
+      "brand": "qweqwra",
+      "NIT": "1231232",
       "status": "active",
       "logo": "https://ejemplo.com/logo.png",
       "styles": {
-        "color": "#FF5733",
+        "color": "#FF5743",
         "font": "Arial",
         "fontSize": "16px"
       }

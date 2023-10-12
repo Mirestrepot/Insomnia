@@ -1,7 +1,7 @@
 _id: req_c11a2e83dc2a46d0a61252e8ccf57588
 type: Request
 parentId: fld_c30ddf10c5064ff7956a63fd1c6dfe24
-modified: 1697123849509
+modified: 1697126636530
 created: 1697123755922
 url: http://localhost:3000/app/companies/6527159c113091fe5e379cbe
 name: Delete Companies
@@ -9,19 +9,7 @@ description: ""
 method: DELETE
 body:
   mimeType: application/json
-  text: |-
-    {
-      "business_name": "Mi Empresa",
-      "brand": "Mi Marca",
-      "NIT": "1234567890",
-      "status": "active",
-      "logo": "https://ejemplo.com/logo.png",
-      "styles": {
-        "color": "#FF5733",
-        "font": "Arial",
-        "fontSize": "16px"
-      }
-    }
+  text: ""
 parameters: []
 headers:
   - name: Content-Type
