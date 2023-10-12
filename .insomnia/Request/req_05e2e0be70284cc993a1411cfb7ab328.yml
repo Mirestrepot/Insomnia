@@ -1,10 +1,10 @@
 _id: req_05e2e0be70284cc993a1411cfb7ab328
 type: Request
 parentId: fld_007772a7d23549d78c2ef93abfee7bc9
-modified: 1696005003323
+modified: 1697127129094
 created: 1696003107628
 url: http://localhost:3000/base/company-info/
-name: New Request
+name: Get Company Info
 description: ""
 method: GET
 body: {}
