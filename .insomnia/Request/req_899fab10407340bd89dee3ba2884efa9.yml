@@ -1,0 +1,46 @@
+_id: req_899fab10407340bd89dee3ba2884efa9
+type: Request
+parentId: fld_007772a7d23549d78c2ef93abfee7bc9
+modified: 1696005211679
+created: 1695846600526
+url: http://localhost:3000/base/company-info/setImage
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_4b65630bf8d940faafc4067b596b0c1e
+      name: myfile
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\carlo\Downloads\descarga.webp
+    - id: pair_8eda8ca55feb405da354a0528899ab57
+      name: field
+      value: short_dark_logo
+      description: ""
+    - id: pair_087be6dd3b2e4055a8cb172daa069c58
+      name: folder
+      value: company_information
+      description: ""
+      disabled: true
+parameters:
+  - id: pair_2c21a23bac7546b998c5cf26d685ae08
+    name: folder
+    value: company_information
+    description: ""
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695846600526
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

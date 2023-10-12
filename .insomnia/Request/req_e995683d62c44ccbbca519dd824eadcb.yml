@@ -1,0 +1,50 @@
+_id: req_e995683d62c44ccbbca519dd824eadcb
+type: Request
+parentId: fld_e024d83f92084566af8b7144a7e45a76
+modified: 1696003478583
+created: 1695834394832
+url: http://localhost:3000/storage/
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_2d3f93c150c54683a5c84ebc20192fbc
+      name: myfile
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\carlo\Downloads\1663929361780.jpg
+    - id: pair_ef56ddb47f3f44258663eec1201f319b
+      name: aaaa
+      value: aaaaaaaaaaaaaaa
+      description: ""
+      disabled: false
+parameters:
+  - id: pair_bddd50fc442b41e091b84d368d1f98f9
+    name: folder
+    value: ""
+    description: ""
+    disabled: false
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_48f7d3bd0f2149e28b14680d9dd63b2a
+  - id: pair_ecd997c60a5140a88e033cc3b4c1b94d
+    name: Authorization
+    value: key
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTEzMWQzNzM5ZTg4YjQyYTc5MGZlNmYiLCJpYXQiOjE2OTU5OTg0NDAsImV4cCI6MTY5NjA4NDg0MH0.rfqwLdoth9i2UNxnhwDIIBGLncrCBqGgm2vPUNWC1SE
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1695834394832
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

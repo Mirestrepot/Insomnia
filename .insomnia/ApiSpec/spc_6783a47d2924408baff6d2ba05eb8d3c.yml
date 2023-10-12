@@ -1,0 +1,395 @@
+_id: spc_6783a47d2924408baff6d2ba05eb8d3c
+type: ApiSpec
+parentId: wrk_394ca6a524d14e09907c216f3654e785
+modified: 1697125810140
+created: 1697125810140
+fileName: New Document
+contents: "{\"_type\":\"export\",\"__export_format\":4,\"__export_date\":\"2023\
+  -10-12T15:31:36.209Z\",\"__export_source\":\"insomnia.desktop.app:v2023.5.8\",\
+  \"resources\":[{\"_id\":\"req_a3c96849714047d392a4210c73d17ce9\",\"parentId\":\
+  \"fld_27d58d468e7048868992f55ad269e42b\",\"modified\":1697123845053,\"created\
+  \":1697121955100,\"url\":\"http://localhost:3000/app/companies/\",\"name\":\"\
+  Create
+  Companies\",\"description\":\"\",\"method\":\"POST\",\"body\":{\"mimeType\":\
+  \"application/json\",\"text\":\"{\\n  \\\"business_name\\\": \\\"Mi
+  Empresa\\\",\\n  \\\"brand\\\": \\\"Mi Marca\\\",\\n  \\\"NIT\\\":
+  \\\"1234567890\\\",\\n  \\\"status\\\": \\\"active\\\",\\n  \\\"logo\\\":
+  \\\"https://ejemplo.com/logo.png\\\",\\n  \\\"styles\\\":
+  {\\n    \\\"color\\\": \\\"#FF5733\\\",\\n    \\\"font\\\":
+  \\\"Arial\\\",\\n    \\\"fontSize\\\":
+  \\\"16px\\\"\\n  }\\n}\"},\"parameters\":[],\"headers\":[{\"name\":\"Content-\
+  Type\",\"value\":\"application/json\",\"id\":\"pair_5c64c19cf09a4109aec14dea0\
+  a61e8fb\"},{\"name\":\"Authorization\",\"value\":\"key {% response 'body',
+  'req_86452730df534d56aca88bdcec3f7a74', 'b64::JC5rZXk=::46b', 'no-history', 60
+  %}\",\"id\":\"pair_a3538f134cf04fb5a7737291c438533c\"}],\"authentication\":{},\
+  \"metaSortKey\":-1697121957665,\"isPrivate\":false,\"settingStoreCookies\":tr\
+  ue,\"settingSendCookies\":true,\"settingDisableRenderRequestBody\":false,\"se\
+  ttingEncodeUrl\":true,\"settingRebuildPath\":true,\"settingFollowRedirects\":\
+  \"global\",\"_type\":\"request\"},{\"_id\":\"fld_27d58d468e7048868992f55ad269\
+  e42b\",\"parentId\":\"wrk_efbf19d80175488ca89f3c77ce4c72b3\",\"modified\":169\
+  7121790655,\"created\":1697121790655,\"name\":\"Companies\",\"description\":\"\
+  \",\"environment\":{},\"environmentPropertyOrder\":null,\"metaSortKey\":-1697\
+  121790655,\"_type\":\"request_group\"},{\"_id\":\"wrk_efbf19d80175488ca89f3c7\
+  7ce4c72b3\",\"parentId\":null,\"modified\":1696875404998,\"created\":16968754\
+  04998,\"name\":\"InkNova\",\"description\":\"\",\"scope\":\"collection\",\"_t\
+  ype\":\"workspace\"},{\"_id\":\"req_1d13bf87dde7496ead8263e259e1daf9\",\"pare\
+  ntId\":\"fld_27d58d468e7048868992f55ad269e42b\",\"modified\":1697123849509,\"\
+  created\":1697123755922,\"url\":\"http://localhost:3000/app/companies/6527159\
+  c113091fe5e379cbe\",\"name\":\"Delete
+  Companies\",\"description\":\"\",\"method\":\"DELETE\",\"body\":{\"mimeType\":\
+  \"application/json\",\"text\":\"{\\n  \\\"business_name\\\": \\\"Mi
+  Empresa\\\",\\n  \\\"brand\\\": \\\"Mi Marca\\\",\\n  \\\"NIT\\\":
+  \\\"1234567890\\\",\\n  \\\"status\\\": \\\"active\\\",\\n  \\\"logo\\\":
+  \\\"https://ejemplo.com/logo.png\\\",\\n  \\\"styles\\\":
+  {\\n    \\\"color\\\": \\\"#FF5733\\\",\\n    \\\"font\\\":
+  \\\"Arial\\\",\\n    \\\"fontSize\\\":
+  \\\"16px\\\"\\n  }\\n}\"},\"parameters\":[],\"headers\":[{\"name\":\"Content-\
+  Type\",\"value\":\"application/json\",\"id\":\"pair_886939351c9548dd881e9bef7\
+  cdba19b\"},{\"name\":\"Authorization\",\"value\":\"key {% response 'body',
+  'req_86452730df534d56aca88bdcec3f7a74', 'b64::JC5rZXk=::46b', 'no-history', 60
+  %}\",\"id\":\"pair_1df043b94c1d43f7b5d1735770ad8f2d\"}],\"authentication\":{},\
+  \"metaSortKey\":-1696975579341,\"isPrivate\":false,\"settingStoreCookies\":tr\
+  ue,\"settingSendCookies\":true,\"settingDisableRenderRequestBody\":false,\"se\
+  ttingEncodeUrl\":true,\"settingRebuildPath\":true,\"settingFollowRedirects\":\
+  \"global\",\"_type\":\"request\"},{\"_id\":\"req_2234eb9c2bf24a3cb7ae85b4ec5e\
+  fd06\",\"parentId\":\"fld_27d58d468e7048868992f55ad269e42b\",\"modified\":169\
+  7123821101,\"created\":1697123797910,\"url\":\"http://localhost:3000/app/comp\
+  anies/6527159c113091fe5e379cbe\",\"name\":\"Update
+  Companies\",\"description\":\"\",\"method\":\"PUT\",\"body\":{\"mimeType\":\"\
+  application/json\",\"text\":\"{\\n  \\\"business_name\\\": \\\"Mi
+  Empresa\\\",\\n  \\\"brand\\\": \\\"Mi Marca\\\",\\n  \\\"NIT\\\":
+  \\\"1234567890\\\",\\n  \\\"status\\\": \\\"active\\\",\\n  \\\"logo\\\":
+  \\\"https://ejemplo.com/logo.png\\\",\\n  \\\"styles\\\":
+  {\\n    \\\"color\\\": \\\"#FF5733\\\",\\n    \\\"font\\\":
+  \\\"Arial\\\",\\n    \\\"fontSize\\\":
+  \\\"16px\\\"\\n  }\\n}\"},\"parameters\":[],\"headers\":[{\"name\":\"Content-\
+  Type\",\"value\":\"application/json\",\"id\":\"pair_04e325d96810437092bb143d0\
+  f9e5eee\"},{\"name\":\"User-Agent\",\"value\":\"key {% response 'body',
+  'req_86452730df534d56aca88bdcec3f7a74', 'b64::JC5rZXk=::46b', 'no-history', 60
+  %}\",\"id\":\"pair_29a9f0058f90446cafee6c778f5acad0\"}],\"authentication\":{},\
+  \"metaSortKey\":-1696902390179,\"isPrivate\":false,\"settingStoreCookies\":tr\
+  ue,\"settingSendCookies\":true,\"settingDisableRenderRequestBody\":false,\"se\
+  ttingEncodeUrl\":true,\"settingRebuildPath\":true,\"settingFollowRedirects\":\
+  \"global\",\"_type\":\"request\"},{\"_id\":\"req_e09f00acafe249c79531d1e9fdff\
+  b3b4\",\"parentId\":\"fld_27d58d468e7048868992f55ad269e42b\",\"modified\":169\
+  7123736630,\"created\":1697123639862,\"url\":\"http://localhost:3000/app/comp\
+  anies/\",\"name\":\"Get
+  Companies\",\"description\":\"\",\"method\":\"GET\",\"body\":{\"mimeType\":\"\
+  application/json\",\"text\":\"{\\n  \\\"business_name\\\": \\\"Mi
+  Empresa\\\",\\n  \\\"brand\\\": \\\"Mi Marca\\\",\\n  \\\"NIT\\\":
+  \\\"1234567890\\\",\\n  \\\"status\\\": \\\"active\\\",\\n  \\\"logo\\\":
+  \\\"https://ejemplo.com/logo.png\\\",\\n  \\\"styles\\\":
+  {\\n    \\\"color\\\": \\\"#FF5733\\\",\\n    \\\"font\\\":
+  \\\"Arial\\\",\\n    \\\"fontSize\\\":
+  \\\"16px\\\"\\n  }\\n}\"},\"parameters\":[],\"headers\":[{\"name\":\"Content-\
+  Type\",\"value\":\"application/json\",\"id\":\"pair_9f451a46e77b44dab206814fb\
+  ace7400\"},{\"name\":\"Authorization\",\"value\":\"key {% response 'body',
+  'req_86452730df534d56aca88bdcec3f7a74', 'b64::JC5rZXk=::46b', 'no-history', 60
+  %}\",\"id\":\"pair_1f64dba08efc434d8f7680d289597b0b\"}],\"authentication\":{},\
+  \"metaSortKey\":-1696829201017,\"isPrivate\":false,\"settingStoreCookies\":tr\
+  ue,\"settingSendCookies\":true,\"settingDisableRenderRequestBody\":false,\"se\
+  ttingEncodeUrl\":true,\"settingRebuildPath\":true,\"settingFollowRedirects\":\
+  \"global\",\"_type\":\"request\"},{\"_id\":\"req_accedadaf4d24f56a776fcad7582\
+  c44c\",\"parentId\":\"fld_360d3f0fc7c54a46b3e32547539f1de6\",\"modified\":169\
+  6005003323,\"created\":1696003107628,\"url\":\"http://localhost:3000/base/com\
+  pany-info/\",\"name\":\"New
+  Request\",\"description\":\"\",\"method\":\"GET\",\"body\":{},\"parameters\":\
+  [],\"headers\":[{\"name\":\"User-Agent\",\"value\":\"insomnia/2023.5.8\"}],\"\
+  authentication\":{},\"metaSortKey\":-1696003107628,\"isPrivate\":false,\"sett\
+  ingStoreCookies\":true,\"settingSendCookies\":true,\"settingDisableRenderRequ\
+  estBody\":false,\"settingEncodeUrl\":true,\"settingRebuildPath\":true,\"setti\
+  ngFollowRedirects\":\"global\",\"_type\":\"request\"},{\"_id\":\"fld_360d3f0f\
+  c7c54a46b3e32547539f1de6\",\"parentId\":\"wrk_efbf19d80175488ca89f3c77ce4c72b3\
+  \",\"modified\":1695846597653,\"created\":1695846597653,\"name\":\"Company
+  information\",\"description\":\"\",\"environment\":{},\"environmentPropertyOr\
+  der\":null,\"metaSortKey\":-1695846597653,\"_type\":\"request_group\"},{\"_id\
+  \":\"req_1fab1c202d154c06a275c19f6f91f24d\",\"parentId\":\"fld_360d3f0fc7c54a\
+  46b3e32547539f1de6\",\"modified\":1696005211679,\"created\":1695846600526,\"u\
+  rl\":\"http://localhost:3000/base/company-info/setImage\",\"name\":\"New
+  Request\",\"description\":\"\",\"method\":\"POST\",\"body\":{\"mimeType\":\"m\
+  ultipart/form-data\",\"params\":[{\"id\":\"pair_4b65630bf8d940faafc4067b596b0\
+  c1e\",\"name\":\"myfile\",\"value\":\"\",\"description\":\"\",\"type\":\"file\
+  \",\"fileName\":\"C:\\\\Users\\\\carlo\\\\Downloads\\\\descarga.webp\"},{\"id\
+  \":\"pair_8eda8ca55feb405da354a0528899ab57\",\"name\":\"field\",\"value\":\"s\
+  hort_dark_logo\",\"description\":\"\"},{\"id\":\"pair_087be6dd3b2e4055a8cb172\
+  daa069c58\",\"name\":\"folder\",\"value\":\"company_information\",\"descripti\
+  on\":\"\",\"disabled\":true}]},\"parameters\":[{\"id\":\"pair_2c21a23bac7546b\
+  998c5cf26d685ae08\",\"name\":\"folder\",\"value\":\"company_information\",\"d\
+  escription\":\"\"}],\"headers\":[{\"name\":\"Content-Type\",\"value\":\"multi\
+  part/form-data\"},{\"name\":\"User-Agent\",\"value\":\"insomnia/2023.5.8\"}],\
+  \"authentication\":{},\"metaSortKey\":-1695846600526,\"isPrivate\":false,\"se\
+  ttingStoreCookies\":true,\"settingSendCookies\":true,\"settingDisableRenderRe\
+  questBody\":false,\"settingEncodeUrl\":true,\"settingRebuildPath\":true,\"set\
+  tingFollowRedirects\":\"global\",\"_type\":\"request\"},{\"_id\":\"req_86b603\
+  d3ed4146ab82c77074bf3c44e3\",\"parentId\":\"fld_360d3f0fc7c54a46b3e32547539f1\
+  de6\",\"modified\":1696005193789,\"created\":1695846829413,\"url\":\"http://l\
+  ocalhost:3000/base/company-info/\",\"name\":\"New
+  Request\",\"description\":\"\",\"method\":\"POST\",\"body\":{\"mimeType\":\"a\
+  pplication/json\",\"text\":\"{\\n\\t\\\"company_name\\\":\\\"Triduum\\\"\\n}\
+  \"},\"parameters\":[],\"headers\":[{\"name\":\"Content-Type\",\"value\":\"app\
+  lication/json\"},{\"name\":\"User-Agent\",\"value\":\"insomnia/2023.5.8\"}],\
+  \"authentication\":{},\"metaSortKey\":-1695840497679,\"isPrivate\":false,\"se\
+  ttingStoreCookies\":true,\"settingSendCookies\":true,\"settingDisableRenderRe\
+  questBody\":false,\"settingEncodeUrl\":true,\"settingRebuildPath\":true,\"set\
+  tingFollowRedirects\":\"global\",\"_type\":\"request\"},{\"_id\":\"req_171b60\
+  8e52b64334a132c33f16b9ebf0\",\"parentId\":\"fld_d1f16caf489542c68b8fbcc786613\
+  d6e\",\"modified\":1696003478583,\"created\":1695834394832,\"url\":\"http://l\
+  ocalhost:3000/storage/\",\"name\":\"New
+  Request\",\"description\":\"\",\"method\":\"POST\",\"body\":{\"mimeType\":\"m\
+  ultipart/form-data\",\"params\":[{\"id\":\"pair_2d3f93c150c54683a5c84ebc20192\
+  fbc\",\"name\":\"myfile\",\"value\":\"\",\"description\":\"\",\"type\":\"file\
+  \",\"fileName\":\"C:\\\\Users\\\\carlo\\\\Downloads\\\\1663929361780.jpg\"},{\
+  \"id\":\"pair_ef56ddb47f3f44258663eec1201f319b\",\"name\":\"aaaa\",\"value\":\
+  \"aaaaaaaaaaaaaaa\",\"description\":\"\",\"disabled\":false}]},\"parameters\"\
+  :[{\"id\":\"pair_bddd50fc442b41e091b84d368d1f98f9\",\"name\":\"folder\",\"val\
+  ue\":\"\",\"description\":\"\",\"disabled\":false}],\"headers\":[{\"name\":\"\
+  Content-Type\",\"value\":\"multipart/form-data\"},{\"name\":\"User-Agent\",\"\
+  value\":\"insomnia/2023.5.8\",\"id\":\"pair_48f7d3bd0f2149e28b14680d9dd63b2a\
+  \"},{\"id\":\"pair_ecd997c60a5140a88e033cc3b4c1b94d\",\"name\":\"Authorization\
+  \",\"value\":\"key
+  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTEzMWQzNzM5ZTg4YjQyYTc5MGZl\
+  NmYiLCJpYXQiOjE2OTU5OTg0NDAsImV4cCI6MTY5NjA4NDg0MH0.rfqwLdoth9i2UNxnhwDIIBGLn\
+  crCBqGgm2vPUNWC1SE\",\"description\":\"\",\"disabled\":false}],\"authenticati\
+  on\":{},\"metaSortKey\":-1695834394832,\"isPrivate\":false,\"settingStoreCook\
+  ies\":true,\"settingSendCookies\":true,\"settingDisableRenderRequestBody\":fa\
+  lse,\"settingEncodeUrl\":true,\"settingRebuildPath\":true,\"settingFollowRedi\
+  rects\":\"global\",\"_type\":\"request\"},{\"_id\":\"fld_d1f16caf489542c68b8f\
+  bcc786613d6e\",\"parentId\":\"wrk_efbf19d80175488ca89f3c77ce4c72b3\",\"modifi\
+  ed\":1695834388646,\"created\":1695834388646,\"name\":\"Storage\",\"descripti\
+  on\":\"\",\"environment\":{},\"environmentPropertyOrder\":null,\"metaSortKey\
+  \":-1695834388646,\"_type\":\"request_group\"},{\"_id\":\"req_46a1ad10fc0645b\
+  7a73b5753a585ae13\",\"parentId\":\"fld_ab8e411787fb44f4b4840b71b815e4ff\",\"m\
+  odified\":1696537410002,\"created\":1695762023479,\"url\":\"http://localhost:\
+  3000/base/app-sections/\",\"name\":\"Create
+  Sections\",\"description\":\"\",\"method\":\"POST\",\"body\":{\"mimeType\":\"\
+  application/json\",\"text\":\"{\\n    \\\"name\\\":
+  \\\"Users\\\",\\n    \\\"hover_text\\\":
+  \\\"Users\\\",\\n\\t\\t\\\"path\\\":\\\"/management/users/\\\",\\n    \\\"ico\
+  n_name\\\": \\\"children 2\\\",\\n    \\\"admin_required\\\":
+  false,\\n\\t\\t\\\"parent\\\":\\\"6516f7dc6cdbd2ea27420ac0\\\"\\n}\"},\"param\
+  eters\":[],\"headers\":[{\"name\":\"Content-Type\",\"value\":\"application/js\
+  on\"},{\"name\":\"User-Agent\",\"value\":\"insomnia/2023.5.8\"}],\"authentica\
+  tion\":{},\"metaSortKey\":-1695834383104,\"isPrivate\":false,\"settingStoreCo\
+  okies\":true,\"settingSendCookies\":true,\"settingDisableRenderRequestBody\":\
+  false,\"settingEncodeUrl\":true,\"settingRebuildPath\":true,\"settingFollowRe\
+  directs\":\"global\",\"_type\":\"request\"},{\"_id\":\"fld_ab8e411787fb44f4b4\
+  840b71b815e4ff\",\"parentId\":\"wrk_efbf19d80175488ca89f3c77ce4c72b3\",\"modi\
+  fied\":1695762017259,\"created\":1695762017259,\"name\":\"App
+  Sections\",\"description\":\"\",\"environment\":{},\"environmentPropertyOrder\
+  \":null,\"metaSortKey\":-1695762017260,\"_type\":\"request_group\"},{\"_id\":\
+  \"req_949132e9f45b4d359b30e8257bcee11c\",\"parentId\":\"fld_ab8e411787fb44f4b\
+  4840b71b815e4ff\",\"modified\":1696604671001,\"created\":1696537386374,\"url\
+  \":\"http://localhost:3000/base/app-sections/\",\"name\":\"Get
+  Sections\",\"description\":\"\",\"method\":\"GET\",\"body\":{\"mimeType\":\"a\
+  pplication/json\",\"text\":\"{\\n    \\\"name\\\":
+  \\\"Users\\\",\\n    \\\"hover_text\\\":
+  \\\"Users\\\",\\n\\t\\t\\\"path\\\":\\\"/management/users/\\\",\\n    \\\"ico\
+  n_name\\\": \\\"children 2\\\",\\n    \\\"admin_required\\\":
+  false,\\n\\t\\t\\\"parent\\\":\\\"6516f7dc6cdbd2ea27420ac0\\\"\\n}\"},\"param\
+  eters\":[{\"id\":\"pair_27fbc5c4271645a3824ec46143896e87\",\"name\":\"parent\
+  \",\"value\":\"false\",\"description\":\"\",\"disabled\":true},{\"id\":\"pair\
+  _71003a23e5d145fc8eb7e29ef3c70982\",\"name\":\"app_permission\",\"value\":\"6\
+  513471116cd6dce5ad32471\",\"description\":\"\",\"disabled\":true},{\"id\":\"p\
+  air_ffb9ed3dd59548a7b399f643f8004c8b\",\"name\":\"order:#\",\"value\":\"0\",\
+  \"description\":\"\",\"type\":\"text\",\"multiline\":false,\"disabled\":true}\
+  ,{\"id\":\"pair_f380e9dce98b497a9ec663c51cd178f0\",\"name\":\"name\",\"value\
+  \":\"Home\",\"description\":\"\",\"disabled\":false},{\"id\":\"pair_3821c1e0a\
+  1dd4db599d85941f5490a64\",\"name\":\"filter[name]\",\"value\":\"eq(Home)\",\"\
+  description\":\"\",\"disabled\":true}],\"headers\":[{\"name\":\"Content-Type\
+  \",\"value\":\"application/json\"},{\"name\":\"User-Agent\",\"value\":\"insom\
+  nia/2023.5.8\"}],\"authentication\":{},\"metaSortKey\":-1695787950398,\"isPri\
+  vate\":false,\"settingStoreCookies\":true,\"settingSendCookies\":true,\"setti\
+  ngDisableRenderRequestBody\":false,\"settingEncodeUrl\":true,\"settingRebuild\
+  Path\":true,\"settingFollowRedirects\":\"global\",\"_type\":\"request\"},{\"_\
+  id\":\"req_1c843248495f4bd6919035fd9f99f13a\",\"parentId\":\"fld_4961c734d0e5\
+  42b0acc420db0e40b93b\",\"modified\":1697123730643,\"created\":1695741515308,\
+  \"url\":\"http://localhost:3000/base/groups/\",\"name\":\"Get
+  Groups\",\"description\":\"\",\"method\":\"GET\",\"body\":{\"mimeType\":\"app\
+  lication/json\",\"text\":\"\"},\"parameters\":[{\"id\":\"pair_b251ca6a8cb748d\
+  696732a18b5b9f093\",\"name\":\"\",\"value\":\"\",\"description\":\"\"}],\"hea\
+  ders\":[{\"name\":\"Content-Type\",\"value\":\"application/json\",\"id\":\"pa\
+  ir_51f0d484d8f4420d827824216e83ef5e\"},{\"id\":\"pair_d6d9490ea8e3414c99953d2\
+  90e5ed0a9\",\"name\":\"Authorization\",\"value\":\"key {% response 'body',
+  'req_86452730df534d56aca88bdcec3f7a74', 'b64::JC5rZXk=::46b', 'no-history', 60
+  %}\",\"description\":\"\",\"disabled\":false}],\"authentication\":{},\"metaSo\
+  rtKey\":-1695741517692,\"isPrivate\":false,\"settingStoreCookies\":true,\"set\
+  tingSendCookies\":true,\"settingDisableRenderRequestBody\":false,\"settingEnc\
+  odeUrl\":true,\"settingRebuildPath\":true,\"settingFollowRedirects\":\"global\
+  \",\"_type\":\"request\"},{\"_id\":\"fld_4961c734d0e542b0acc420db0e40b93b\",\
+  \"parentId\":\"wrk_efbf19d80175488ca89f3c77ce4c72b3\",\"modified\":1695741509\
+  186,\"created\":1695741509186,\"name\":\"Groups\",\"description\":\"\",\"envi\
+  ronment\":{},\"environmentPropertyOrder\":null,\"metaSortKey\":-1695741509186,\
+  \"_type\":\"request_group\"},{\"_id\":\"req_f97de83ac00f47e58a7f25f7aa3ef11a\
+  \",\"parentId\":\"fld_4961c734d0e542b0acc420db0e40b93b\",\"modified\":1696962\
+  328516,\"created\":1695819767620,\"url\":\"http://localhost:3000/base/groups/\
+  prueba10\",\"name\":\"Get Groups By
+  Name\",\"description\":\"\",\"method\":\"GET\",\"body\":{\"mimeType\":\"appli\
+  cation/json\",\"text\":\"\"},\"parameters\":[],\"headers\":[{\"name\":\"Conte\
+  nt-Type\",\"value\":\"application/json\"},{\"name\":\"User-Agent\",\"value\":\
+  \"insomnia/2023.5.8\"}],\"authentication\":{},\"metaSortKey\":-1695732859953.\
+  25,\"isPrivate\":false,\"settingStoreCookies\":true,\"settingSendCookies\":tr\
+  ue,\"settingDisableRenderRequestBody\":false,\"settingEncodeUrl\":true,\"sett\
+  ingRebuildPath\":true,\"settingFollowRedirects\":\"global\",\"_type\":\"reque\
+  st\"},{\"_id\":\"req_fa7d724b7b0045a29d2d531674fdbc9a\",\"parentId\":\"fld_49\
+  61c734d0e542b0acc420db0e40b93b\",\"modified\":1696965750207,\"created\":16957\
+  50471676,\"url\":\"http://localhost:3000/base/groups/set\",\"name\":\"Set
+  groups for
+  users\",\"description\":\"\",\"method\":\"POST\",\"body\":{\"mimeType\":\"app\
+  lication/json\",\"text\":\"{\\n\\t\\\"name\\\":\\\"grupo10\\\",\\n\\t\\\"idUs\
+  er\\\":[\\\"65131d2139e88b42a790fe69\\\",\\\"65131d3739e88b42a790fe6f\\\",\\\
+  \"651701f20eadb61d096eee94\\\",\\\"652445fd090263a085c51ad5\\\"]\\n}\"},\"par\
+  ameters\":[],\"headers\":[{\"name\":\"Content-Type\",\"value\":\"application/\
+  json\"},{\"name\":\"User-Agent\",\"value\":\"insomnia/2023.5.8\"}],\"authenti\
+  cation\":{},\"metaSortKey\":-1695724202214.5,\"isPrivate\":false,\"settingSto\
+  reCookies\":true,\"settingSendCookies\":true,\"settingDisableRenderRequestBody\
+  \":false,\"settingEncodeUrl\":true,\"settingRebuildPath\":true,\"settingFollo\
+  wRedirects\":\"global\",\"_type\":\"request\"},{\"_id\":\"req_8cd4e7b53bb0451\
+  4b3ae9e2a03174bf7\",\"parentId\":\"fld_4961c734d0e542b0acc420db0e40b93b\",\"m\
+  odified\":1696876659668,\"created\":1695819833415,\"url\":\"http://localhost:\
+  3000/groups/set/sections\",\"name\":\"Groups set
+  permissions\",\"description\":\"\",\"method\":\"POST\",\"body\":{\"mimeType\":\
+  \"application/json\",\"text\":\"{\\n\\t\\\"name\\\":\\\"prueba4\\\",\\n\\t\\\
+  \"permissions\\\":[\\\"6514363166861d96b82c38dc\\\",\\\"6514361766861d96b82c3\
+  8d7\\\",\\\"6514488258d6bb8c4f012557\\\",\\\"6516f7dc6cdbd2ea27420ac0\\\",\\\
+  \"6516f8336cdbd2ea27420ac9\\\",\\\"6516f89f6cdbd2ea27420ad5\\\",\\\"6516f8f06\
+  cdbd2ea27420ae8\\\"]\\n}\"},\"parameters\":[],\"headers\":[{\"name\":\"Conten\
+  t-Type\",\"value\":\"application/json\"},{\"name\":\"User-Agent\",\"value\":\
+  \"insomnia/2023.5.8\"}],\"authentication\":{},\"metaSortKey\":-1695715544475.\
+  75,\"isPrivate\":false,\"settingStoreCookies\":true,\"settingSendCookies\":tr\
+  ue,\"settingDisableRenderRequestBody\":false,\"settingEncodeUrl\":true,\"sett\
+  ingRebuildPath\":true,\"settingFollowRedirects\":\"global\",\"_type\":\"reque\
+  st\"},{\"_id\":\"req_01ac154acfd9490eabf8db33f80ab039\",\"parentId\":\"fld_49\
+  61c734d0e542b0acc420db0e40b93b\",\"modified\":1696879227038,\"created\":16968\
+  76403867,\"url\":\"http://localhost:3000/base/groups/6524526e155081a3d0177471\
+  \",\"name\":\"Delete
+  Groups\",\"description\":\"\",\"method\":\"DELETE\",\"body\":{},\"parameters\
+  \":[],\"headers\":[{\"name\":\"User-Agent\",\"value\":\"insomnia/2023.5.8\"}],\
+  \"authentication\":{},\"metaSortKey\":-1695711215606.375,\"isPrivate\":false,\
+  \"settingStoreCookies\":true,\"settingSendCookies\":true,\"settingDisableRend\
+  erRequestBody\":false,\"settingEncodeUrl\":true,\"settingRebuildPath\":true,\
+  \"settingFollowRedirects\":\"global\",\"_type\":\"request\"},{\"_id\":\"req_b\
+  b7d2ca4ee2446828799cc1fe9bfdda2\",\"parentId\":\"fld_4961c734d0e542b0acc420db\
+  0e40b93b\",\"modified\":1696879332943,\"created\":1696879332943,\"url\":\"htt\
+  p://localhost:3000/base/groups/6524526e155081a3d0177471\",\"name\":\"Delete
+  Permissions\",\"description\":\"\",\"method\":\"DELETE\",\"body\":{},\"parame\
+  ters\":[],\"headers\":[{\"name\":\"User-Agent\",\"value\":\"insomnia/2023.5.8\
+  \"}],\"authentication\":{},\"metaSortKey\":-1695709051171.6875,\"isPrivate\":\
+  false,\"settingStoreCookies\":true,\"settingSendCookies\":true,\"settingDisab\
+  leRenderRequestBody\":false,\"settingEncodeUrl\":true,\"settingRebuildPath\":\
+  true,\"settingFollowRedirects\":\"global\",\"_type\":\"request\"},{\"_id\":\"\
+  req_0dc417452aaf422783dc352bdbb29848\",\"parentId\":\"fld_4961c734d0e542b0acc\
+  420db0e40b93b\",\"modified\":1696962372981,\"created\":1695741790404,\"url\":\
+  \"http://localhost:3000/base/groups/\",\"name\":\"Create
+  Group\",\"description\":\"\",\"method\":\"POST\",\"body\":{\"mimeType\":\"app\
+  lication/json\",\"text\":\"{\\n  \\\"name\\\":
+  \\\"grupo10\\\",\\n  \\\"description\\\": \\\"Descripción opcional del grupo
+  pruebas\\\"\\n}\"},\"parameters\":[],\"headers\":[{\"name\":\"Content-Type\",\
+  \"value\":\"application/json\"},{\"name\":\"User-Agent\",\"value\":\"insomnia\
+  /2023.5.8\"}],\"authentication\":{},\"metaSortKey\":-1695706886737,\"isPrivate\
+  \":false,\"settingStoreCookies\":true,\"settingSendCookies\":true,\"settingDi\
+  sableRenderRequestBody\":false,\"settingEncodeUrl\":true,\"settingRebuildPath\
+  \":true,\"settingFollowRedirects\":\"global\",\"_type\":\"request\"},{\"_id\":\
+  \"req_5f4cad01827a44fcb86577e7aed95b12\",\"parentId\":\"fld_ce2ffa954f1a4865b\
+  25090a88199b0b9\",\"modified\":1696876019159,\"created\":1696536444369,\"url\
+  \":\"http://localhost:3000/base/users/652445e4090263a085c51ace\",\"name\":\"D\
+  elete
+  Users\",\"description\":\"\",\"method\":\"DELETE\",\"body\":{},\"parameters\"\
+  :[],\"headers\":[{\"name\":\"User-Agent\",\"value\":\"insomnia/2023.5.8\"}],\
+  \"authentication\":{},\"metaSortKey\":-1696536444369,\"isPrivate\":false,\"se\
+  ttingStoreCookies\":true,\"settingSendCookies\":true,\"settingDisableRenderRe\
+  questBody\":false,\"settingEncodeUrl\":true,\"settingRebuildPath\":true,\"set\
+  tingFollowRedirects\":\"global\",\"_type\":\"request\"},{\"_id\":\"fld_ce2ffa\
+  954f1a4865b25090a88199b0b9\",\"parentId\":\"wrk_efbf19d80175488ca89f3c77ce4c7\
+  2b3\",\"modified\":1695672253312,\"created\":1695672253312,\"name\":\"Users\",\
+  \"description\":\"\",\"environment\":{},\"environmentPropertyOrder\":null,\"m\
+  etaSortKey\":-1695672253312,\"_type\":\"request_group\"},{\"_id\":\"req_336af\
+  45db17d463e8f94936e936fc82c\",\"parentId\":\"fld_ce2ffa954f1a4865b25090a88199\
+  b0b9\",\"modified\":1696968665789,\"created\":1696536498440,\"url\":\"http://\
+  localhost:3000/base/users/\",\"name\":\"Get
+  Users\",\"description\":\"\",\"method\":\"GET\",\"body\":{},\"parameters\":[{\
+  \"id\":\"pair_73f4a69fe590484ebc7228064e57b35d\",\"name\":\"is_active\",\"val\
+  ue\":\"false\",\"description\":\"\",\"disabled\":true},{\"id\":\"pair_b3f785b\
+  e6f1440ec9dc68606615696d4\",\"name\":\"user_info._photo\",\"value\":\"null\",\
+  \"description\":\"\",\"disabled\":true},{\"id\":\"pair_a50d1670335046078f7c50\
+  4beefeb52e\",\"name\":\"user_info.is_api_user\",\"value\":\"false\",\"descrip\
+  tion\":\"\",\"disabled\":true},{\"id\":\"pair_07ac3800a74c40878dd80a3ed4594828\
+  \",\"name\":\"user_info._id\",\"value\":\"65201cbac2491f559a65c3a3\",\"descri\
+  ption\":\"\",\"disabled\":true},{\"id\":\"pair_93aa0ac8556c4350a032a05e6d037a\
+  b0\",\"name\":\"user_info.is_api_user\",\"value\":\"false\",\"description\":\"\
+  \",\"disabled\":true},{\"id\":\"pair_06a6858510cd4baca51a4afc031b3fe5\",\"name\
+  \":\"user_info.is_api_user\",\"value\":\"null\",\"description\":\"\",\"disabl\
+  ed\":true},{\"id\":\"pair_14758846288d4cdf9678249194290fb8\",\"name\":\"user_\
+  info.photo!\",\"value\":\"null\",\"description\":\"\",\"disabled\":true},{\"id\
+  \":\"pair_a979da6169a34376a997769b7f506f5f\",\"name\":\"user_info.\",\"value\
+  \":\"\",\"description\":\"\",\"disabled\":true},{\"id\":\"pair_cbef4fdae45f43\
+  418f2c366fe4d8b491\",\"name\":\"page\",\"value\":\"2\",\"description\":\"\",\
+  \"disabled\":true},{\"id\":\"pair_5bce060681744fcaa449c05667e86394\",\"name\":\
+  \"page_size\",\"value\":\"2\",\"description\":\"\",\"disabled\":true},{\"id\":\
+  \"pair_e7a3bfa0ed69460b91aa1de321a15898\",\"name\":\"username\",\"value\":\"k\
+  evin, carlos
+  cruz\",\"description\":\"\",\"disabled\":true}],\"headers\":[{\"name\":\"User\
+  -Agent\",\"value\":\"insomnia/2023.5.8\",\"id\":\"pair_d38bfafa9f0d4329b38f48\
+  920c79ce64\",\"disabled\":true},{\"id\":\"pair_2d5ff7d320264fda9d2f614e5dc6a5\
+  81\",\"name\":\"Authorization\",\"value\":\"key {% response 'body',
+  'req_86452730df534d56aca88bdcec3f7a74', 'b64::JC5rZXk=::46b', 'no-history', 60
+  %}\",\"description\":\"\",\"disabled\":false}],\"authentication\":{},\"metaSo\
+  rtKey\":-1696490559413.5,\"isPrivate\":false,\"settingStoreCookies\":true,\"s\
+  ettingSendCookies\":true,\"settingDisableRenderRequestBody\":false,\"settingE\
+  ncodeUrl\":true,\"settingRebuildPath\":true,\"settingFollowRedirects\":\"glob\
+  al\",\"_type\":\"request\"},{\"_id\":\"req_edc9f93af79b464288ede5562680e5aa\",\
+  \"parentId\":\"fld_ce2ffa954f1a4865b25090a88199b0b9\",\"modified\":1696876003\
+  214,\"created\":1695672255782,\"url\":\"http://localhost:3000/base/api-auth/r\
+  egister/\",\"name\":\"Register\",\"description\":\"\",\"method\":\"POST\",\"b\
+  ody\":{\"mimeType\":\"application/json\",\"text\":\"{\\n\\t\\\"username\\\":
+  \\\"mirestrepot\\\",\\n\\t\\\"email\\\":
+  \\\"miguel.restrepo@triduum.co\\\",\\n\\t\\\"password\\\":
+  \\\"12345678\\\"\\n}\"},\"parameters\":[{\"id\":\"pair_38c10f09be644f1e9129d5\
+  9e4498db95\",\"name\":\"\",\"value\":\"\",\"description\":\"\"}],\"headers\":\
+  [{\"name\":\"Content-Type\",\"value\":\"application/json\"},{\"name\":\"User-\
+  Agent\",\"value\":\"insomnia/2023.5.8\"}],\"authentication\":{},\"metaSortKey\
+  \":-1695672255782,\"isPrivate\":false,\"settingStoreCookies\":true,\"settingS\
+  endCookies\":true,\"settingDisableRenderRequestBody\":false,\"settingEncodeUrl\
+  \":true,\"settingRebuildPath\":true,\"settingFollowRedirects\":\"global\",\"_\
+  type\":\"request\"},{\"_id\":\"req_86452730df534d56aca88bdcec3f7a74\",\"paren\
+  tId\":\"fld_ce2ffa954f1a4865b25090a88199b0b9\",\"modified\":1696962037046,\"c\
+  reated\":1695733354175,\"url\":\"http://localhost:3000/base/api-auth/\",\"name\
+  \":\"Login\",\"description\":\"\",\"method\":\"POST\",\"body\":{\"mimeType\":\
+  \"application/json\",\"text\":\"{\\n\\t\\\"email\\\":
+  \\\"miguel.restrepo@triduum.co\\\",\\n\\t\\\"password\\\":
+  \\\"12345678\\\"\\n}\"},\"parameters\":[],\"headers\":[{\"name\":\"Content-Ty\
+  pe\",\"value\":\"application/json\"},{\"name\":\"User-Agent\",\"value\":\"ins\
+  omnia/2023.5.8\"}],\"authentication\":{},\"metaSortKey\":-1695243271176.5,\"i\
+  sPrivate\":false,\"settingStoreCookies\":true,\"settingSendCookies\":true,\"s\
+  ettingDisableRenderRequestBody\":false,\"settingEncodeUrl\":true,\"settingReb\
+  uildPath\":true,\"settingFollowRedirects\":\"global\",\"_type\":\"request\"},{\
+  \"_id\":\"req_f4461c75aedd4772a97c37733b5493b0\",\"parentId\":\"fld_ce2ffa954\
+  f1a4865b25090a88199b0b9\",\"modified\":1696969629354,\"created\":169696911668\
+  4,\"url\":\"http://localhost:3000/base/api-auth/refresh_token\",\"name\":\"Re\
+  fresh
+  Token\",\"description\":\"\",\"method\":\"POST\",\"body\":{\"mimeType\":\"app\
+  lication/json\",\"text\":\"{\\n  \\\"refreshToken\\\":
+  \\\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTI0NDVmZDA5MDI2M2EwODVj\
+  NTFhZDUiLCJpYXQiOjE2OTY5MTUxODEsImV4cCI6MTY5NzAwMTU4MX0.YJjYu70LCyM0YuzYBQndR\
+  WHRowNhrjXOfWh_4QWDs14\\\"\\n}\"},\"parameters\":[],\"headers\":[{\"name\":\"\
+  Content-Type\",\"value\":\"application/json\",\"id\":\"pair_659e45e8481a47b4a\
+  db7087f62019ccf\"}],\"authentication\":{},\"metaSortKey\":-1694961359618,\"is\
+  Private\":false,\"settingStoreCookies\":true,\"settingSendCookies\":true,\"se\
+  ttingDisableRenderRequestBody\":false,\"settingEncodeUrl\":true,\"settingRebu\
+  ildPath\":true,\"settingFollowRedirects\":\"global\",\"_type\":\"request\"},{\
+  \"_id\":\"env_9d0526f7e2184cb7b35d20cc601e4157\",\"parentId\":\"wrk_efbf19d80\
+  175488ca89f3c77ce4c72b3\",\"modified\":1697121970047,\"created\":169567219370\
+  3,\"name\":\"Base
+  Environment\",\"data\":{},\"dataPropertyOrder\":{},\"color\":null,\"isPrivate\
+  \":false,\"metaSortKey\":1695672193703,\"_type\":\"environment\"},{\"_id\":\"\
+  jar_c940dea082594d39bfd5436360b3c09d\",\"parentId\":\"wrk_efbf19d80175488ca89\
+  f3c77ce4c72b3\",\"modified\":1695672193706,\"created\":1695672193706,\"name\":\
+  \"Default
+  Jar\",\"cookies\":[],\"_type\":\"cookie_jar\"},{\"_id\":\"env_8d08187a43414e7\
+  494d91352540afaec\",\"parentId\":\"env_9d0526f7e2184cb7b35d20cc601e4157\",\"m\
+  odified\":1697122529681,\"created\":1697121994677,\"name\":\"Local\",\"data\"\
+  :{\"url\":\"http://localhost:3000/\",\"credentials\":{\"email\":\"miguel.rest\
+  repo@triduum.co\",\"password\":\"12345678\"}},\"dataPropertyOrder\":{\"&\":[\
+  \"url\",\"credentials\"],\"&~|credentials\":[\"email\",\"password\"]},\"color\
+  \":\"#7d69cb\",\"isPrivate\":false,\"metaSortKey\":1697121994677,\"_type\":\"\
+  environment\"}]}"
+contentType: yaml

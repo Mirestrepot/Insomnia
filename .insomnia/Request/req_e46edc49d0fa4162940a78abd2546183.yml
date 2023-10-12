@@ -1,0 +1,23 @@
+_id: req_e46edc49d0fa4162940a78abd2546183
+type: Request
+parentId: fld_f978688fdeb74b668f0f25f576511ae1
+modified: 1696879227038
+created: 1696876403867
+url: http://localhost:3000/base/groups/6524526e155081a3d0177471
+name: Delete Groups
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695711215606.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

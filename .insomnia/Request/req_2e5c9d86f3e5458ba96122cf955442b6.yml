@@ -1,0 +1,31 @@
+_id: req_2e5c9d86f3e5458ba96122cf955442b6
+type: Request
+parentId: fld_f978688fdeb74b668f0f25f576511ae1
+modified: 1696962372981
+created: 1695741790404
+url: http://localhost:3000/base/groups/
+name: Create Group
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "grupo10",
+      "description": "Descripción opcional del grupo pruebas"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695706886737
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

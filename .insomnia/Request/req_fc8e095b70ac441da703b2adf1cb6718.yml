@@ -1,0 +1,62 @@
+_id: req_fc8e095b70ac441da703b2adf1cb6718
+type: Request
+parentId: fld_378e689209d44c83becc18cb57e60796
+modified: 1696604671001
+created: 1696537386374
+url: http://localhost:3000/base/app-sections/
+name: Get Sections
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "name": "Users",
+        "hover_text": "Users",
+    		"path":"/management/users/",
+        "icon_name": "children 2",
+        "admin_required": false,
+    		"parent":"6516f7dc6cdbd2ea27420ac0"
+    }
+parameters:
+  - id: pair_27fbc5c4271645a3824ec46143896e87
+    name: parent
+    value: "false"
+    description: ""
+    disabled: true
+  - id: pair_71003a23e5d145fc8eb7e29ef3c70982
+    name: app_permission
+    value: 6513471116cd6dce5ad32471
+    description: ""
+    disabled: true
+  - id: pair_ffb9ed3dd59548a7b399f643f8004c8b
+    name: order:#
+    value: "0"
+    description: ""
+    type: text
+    multiline: false
+    disabled: true
+  - id: pair_f380e9dce98b497a9ec663c51cd178f0
+    name: name
+    value: Home
+    description: ""
+    disabled: false
+  - id: pair_3821c1e0a1dd4db599d85941f5490a64
+    name: filter[name]
+    value: eq(Home)
+    description: ""
+    disabled: true
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695787950398
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

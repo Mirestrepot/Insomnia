@@ -1,0 +1,42 @@
+_id: req_659430d7132e4318846cdd5f528002a5
+type: Request
+parentId: fld_c30ddf10c5064ff7956a63fd1c6dfe24
+modified: 1697123845053
+created: 1697121955100
+url: http://localhost:3000/app/companies/
+name: Create Companies
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "business_name": "Mi Empresa",
+      "brand": "Mi Marca",
+      "NIT": "1234567890",
+      "status": "active",
+      "logo": "https://ejemplo.com/logo.png",
+      "styles": {
+        "color": "#FF5733",
+        "font": "Arial",
+        "fontSize": "16px"
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5c64c19cf09a4109aec14dea0a61e8fb
+  - name: Authorization
+    value: key {% response 'body', 'req_86452730df534d56aca88bdcec3f7a74',
+      'b64::JC5rZXk=::46b', 'no-history', 60 %}
+    id: pair_a3538f134cf04fb5a7737291c438533c
+authentication: {}
+metaSortKey: -1697121957665
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

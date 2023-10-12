@@ -1,0 +1,86 @@
+_id: req_c041528a689641c59cc147cf95e650c5
+type: Request
+parentId: fld_fcfc945564804ae69882b1d68c8e16de
+modified: 1696968665789
+created: 1696536498440
+url: http://localhost:3000/base/users/
+name: Get Users
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_73f4a69fe590484ebc7228064e57b35d
+    name: is_active
+    value: "false"
+    description: ""
+    disabled: true
+  - id: pair_b3f785be6f1440ec9dc68606615696d4
+    name: user_info._photo
+    value: "null"
+    description: ""
+    disabled: true
+  - id: pair_a50d1670335046078f7c504beefeb52e
+    name: user_info.is_api_user
+    value: "false"
+    description: ""
+    disabled: true
+  - id: pair_07ac3800a74c40878dd80a3ed4594828
+    name: user_info._id
+    value: 65201cbac2491f559a65c3a3
+    description: ""
+    disabled: true
+  - id: pair_93aa0ac8556c4350a032a05e6d037ab0
+    name: user_info.is_api_user
+    value: "false"
+    description: ""
+    disabled: true
+  - id: pair_06a6858510cd4baca51a4afc031b3fe5
+    name: user_info.is_api_user
+    value: "null"
+    description: ""
+    disabled: true
+  - id: pair_14758846288d4cdf9678249194290fb8
+    name: user_info.photo!
+    value: "null"
+    description: ""
+    disabled: true
+  - id: pair_a979da6169a34376a997769b7f506f5f
+    name: user_info.
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_cbef4fdae45f43418f2c366fe4d8b491
+    name: page
+    value: "2"
+    description: ""
+    disabled: true
+  - id: pair_5bce060681744fcaa449c05667e86394
+    name: page_size
+    value: "2"
+    description: ""
+    disabled: true
+  - id: pair_e7a3bfa0ed69460b91aa1de321a15898
+    name: username
+    value: kevin, carlos cruz
+    description: ""
+    disabled: true
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_d38bfafa9f0d4329b38f48920c79ce64
+    disabled: true
+  - id: pair_2d5ff7d320264fda9d2f614e5dc6a581
+    name: Authorization
+    value: key {% response 'body', 'req_86452730df534d56aca88bdcec3f7a74',
+      'b64::JC5rZXk=::46b', 'no-history', 60 %}
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1696490559413.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

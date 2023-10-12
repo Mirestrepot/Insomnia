@@ -1,0 +1,35 @@
+_id: req_844b2d2ef2e1469f8f8c5485e7081ca9
+type: Request
+parentId: fld_378e689209d44c83becc18cb57e60796
+modified: 1696537410002
+created: 1695762023479
+url: http://localhost:3000/base/app-sections/
+name: Create Sections
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "name": "Users",
+        "hover_text": "Users",
+    		"path":"/management/users/",
+        "icon_name": "children 2",
+        "admin_required": false,
+    		"parent":"6516f7dc6cdbd2ea27420ac0"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695834383104
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

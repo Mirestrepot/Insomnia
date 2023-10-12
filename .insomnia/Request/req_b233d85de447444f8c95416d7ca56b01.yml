@@ -1,0 +1,27 @@
+_id: req_b233d85de447444f8c95416d7ca56b01
+type: Request
+parentId: fld_f978688fdeb74b668f0f25f576511ae1
+modified: 1696962328516
+created: 1695819767620
+url: http://localhost:3000/base/groups/prueba10
+name: Get Groups By Name
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695732859953.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

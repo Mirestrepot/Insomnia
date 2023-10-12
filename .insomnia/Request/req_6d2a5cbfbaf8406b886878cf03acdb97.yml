@@ -1,0 +1,36 @@
+_id: req_6d2a5cbfbaf8406b886878cf03acdb97
+type: Request
+parentId: fld_fcfc945564804ae69882b1d68c8e16de
+modified: 1696876003214
+created: 1695672255782
+url: http://localhost:3000/base/api-auth/register/
+name: Register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username": "mirestrepot",
+    	"email": "miguel.restrepo@triduum.co",
+    	"password": "12345678"
+    }
+parameters:
+  - id: pair_38c10f09be644f1e9129d59e4498db95
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695672255782
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_b75308033c4440ab92aa506254689e49
+type: Request
+parentId: fld_f978688fdeb74b668f0f25f576511ae1
+modified: 1696876659668
+created: 1695819833415
+url: http://localhost:3000/groups/set/sections
+name: Groups set permissions
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"name":"prueba4",
+    	"permissions":["6514363166861d96b82c38dc","6514361766861d96b82c38d7","6514488258d6bb8c4f012557","6516f7dc6cdbd2ea27420ac0","6516f8336cdbd2ea27420ac9","6516f89f6cdbd2ea27420ad5","6516f8f06cdbd2ea27420ae8"]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695715544475.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

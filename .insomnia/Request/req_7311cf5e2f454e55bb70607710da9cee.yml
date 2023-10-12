@@ -1,0 +1,36 @@
+_id: req_7311cf5e2f454e55bb70607710da9cee
+type: Request
+parentId: fld_f978688fdeb74b668f0f25f576511ae1
+modified: 1697123730643
+created: 1695741515308
+url: http://localhost:3000/base/groups/
+name: Get Groups
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - id: pair_b251ca6a8cb748d696732a18b5b9f093
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_51f0d484d8f4420d827824216e83ef5e
+  - id: pair_d6d9490ea8e3414c99953d290e5ed0a9
+    name: Authorization
+    value: key {% response 'body', 'req_86452730df534d56aca88bdcec3f7a74',
+      'b64::JC5rZXk=::46b', 'no-history', 60 %}
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1695741517692
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,23 @@
+_id: req_1ca03aef23b9492a99c817f3b7810f73
+type: Request
+parentId: fld_f978688fdeb74b668f0f25f576511ae1
+modified: 1696879332943
+created: 1696879332943
+url: http://localhost:3000/base/groups/6524526e155081a3d0177471
+name: Delete Permissions
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695709051171.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

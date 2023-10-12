@@ -1,0 +1,31 @@
+_id: req_cecf8c5629e6470b974a6686f72ab8be
+type: Request
+parentId: fld_fcfc945564804ae69882b1d68c8e16de
+modified: 1696962037046
+created: 1695733354175
+url: http://localhost:3000/base/api-auth/
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "miguel.restrepo@triduum.co",
+    	"password": "12345678"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695243271176.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

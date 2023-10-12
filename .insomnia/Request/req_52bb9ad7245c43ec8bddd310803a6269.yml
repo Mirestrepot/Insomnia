@@ -1,0 +1,30 @@
+_id: req_52bb9ad7245c43ec8bddd310803a6269
+type: Request
+parentId: fld_007772a7d23549d78c2ef93abfee7bc9
+modified: 1696005193789
+created: 1695846829413
+url: http://localhost:3000/base/company-info/
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"company_name":"Triduum"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695840497679
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_b1e85c25cafa4252a93e85be62f0a687
+type: Request
+parentId: fld_f978688fdeb74b668f0f25f576511ae1
+modified: 1696965750207
+created: 1695750471676
+url: http://localhost:3000/base/groups/set
+name: Set groups for users
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"name":"grupo10",
+    	"idUser":["65131d2139e88b42a790fe69","65131d3739e88b42a790fe6f","651701f20eadb61d096eee94","652445fd090263a085c51ad5"]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695724202214.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

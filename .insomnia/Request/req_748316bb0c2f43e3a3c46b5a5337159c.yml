@@ -1,0 +1,29 @@
+_id: req_748316bb0c2f43e3a3c46b5a5337159c
+type: Request
+parentId: fld_fcfc945564804ae69882b1d68c8e16de
+modified: 1696969629354
+created: 1696969116684
+url: http://localhost:3000/base/api-auth/refresh_token
+name: Refresh Token
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTI0NDVmZDA5MDI2M2EwODVjNTFhZDUiLCJpYXQiOjE2OTY5MTUxODEsImV4cCI6MTY5NzAwMTU4MX0.YJjYu70LCyM0YuzYBQndRWHRowNhrjXOfWh_4QWDs14"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_659e45e8481a47b4adb7087f62019ccf
+authentication: {}
+metaSortKey: -1694961359618
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

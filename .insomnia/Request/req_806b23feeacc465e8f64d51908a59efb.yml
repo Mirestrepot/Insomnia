@@ -1,0 +1,23 @@
+_id: req_806b23feeacc465e8f64d51908a59efb
+type: Request
+parentId: fld_fcfc945564804ae69882b1d68c8e16de
+modified: 1696876019159
+created: 1696536444369
+url: http://localhost:3000/base/users/652445e4090263a085c51ace
+name: Delete Users
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1696536444369
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

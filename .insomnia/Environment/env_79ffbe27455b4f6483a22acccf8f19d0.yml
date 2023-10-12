@@ -1,0 +1,21 @@
+_id: env_79ffbe27455b4f6483a22acccf8f19d0
+type: Environment
+parentId: env_07d7c32d0e45cf44b39d6d5f6cbf755e30425336
+modified: 1697122529681
+created: 1697121994677
+name: Local
+data:
+  url: http://localhost:3000/
+  credentials:
+    email: miguel.restrepo@triduum.co
+    password: "12345678"
+dataPropertyOrder:
+  "&":
+    - url
+    - credentials
+  "&~|credentials":
+    - email
+    - password
+color: "#7d69cb"
+isPrivate: false
+metaSortKey: 1697121994677

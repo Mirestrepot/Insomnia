@@ -1,0 +1,42 @@
+_id: req_88ac5f6fd7584e4a8d2b78f7e1393045
+type: Request
+parentId: fld_c30ddf10c5064ff7956a63fd1c6dfe24
+modified: 1697123821101
+created: 1697123797910
+url: http://localhost:3000/app/companies/6527159c113091fe5e379cbe
+name: Update Companies
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "business_name": "Mi Empresa",
+      "brand": "Mi Marca",
+      "NIT": "1234567890",
+      "status": "active",
+      "logo": "https://ejemplo.com/logo.png",
+      "styles": {
+        "color": "#FF5733",
+        "font": "Arial",
+        "fontSize": "16px"
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_04e325d96810437092bb143d0f9e5eee
+  - name: User-Agent
+    value: key {% response 'body', 'req_86452730df534d56aca88bdcec3f7a74',
+      'b64::JC5rZXk=::46b', 'no-history', 60 %}
+    id: pair_29a9f0058f90446cafee6c778f5acad0
+authentication: {}
+metaSortKey: -1696902390179
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
